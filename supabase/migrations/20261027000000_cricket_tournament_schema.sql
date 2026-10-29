@@ -561,9 +561,9 @@ insert into public.tournaments (
   registration_deadline, is_registration_open, payment_instructions, rules
 )
 values (
-  'pvcc-season-4',
+  'pvcc-season-35',
   'Punjab Village Cricket Council (PVCC)',
-  'Season 4 Championship 2026',
+  'Season 35 Championship 2026',
   'Punjab Village Cricket Council Management Committee',
   10000.00,
   11,

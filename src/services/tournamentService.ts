@@ -41,7 +41,7 @@ export const tournamentService = {
       const { data, error } = await supabase
         .from('tournaments')
         .select('*')
-        .eq('id', 'pvcc-season-4')
+        .or('id.eq.pvcc-season-35,id.eq.pvcc-season-4')
         .single();
 
       if (!error && data) {

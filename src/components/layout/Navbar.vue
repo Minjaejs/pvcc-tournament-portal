@@ -13,7 +13,7 @@
           <div>
             <div class="flex items-center gap-2">
               <span class="font-extrabold text-slate-900 tracking-tight text-base sm:text-lg">PVCC</span>
-              <span class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">Season 4</span>
+              <span class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">Season 35</span>
             </div>
             <p class="text-xs text-slate-500 font-medium hidden sm:block">Punjab Village Cricket Council</p>
           </div>

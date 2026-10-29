@@ -10,7 +10,7 @@
           <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
             <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-50 border border-emerald-200/80 text-emerald-800 text-xs font-semibold shadow-xs">
               <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-              Punjab Village Cricket Council — Season 4 Registration
+              Punjab Village Cricket Council — Season 35 Registration
             </div>
 
             <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.1]">

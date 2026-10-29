@@ -9,7 +9,7 @@
         </div>
         <h1 class="text-3xl font-extrabold text-slate-900 tracking-tight">Tournament Admin Dashboard</h1>
         <p class="text-xs text-slate-500 mt-1">
-          Signed in as: <strong class="text-slate-700 font-bold">{{ currentUser?.email || 'admin@pvcc.pk' }}</strong>. Verify incoming registrations, review payment receipts, and qualify squads for Punjab Village Cricket Council Season 4.
+          Signed in as: <strong class="text-slate-700 font-bold">{{ currentUser?.email || 'admin@pvcc.pk' }}</strong>. Verify incoming registrations, review payment receipts, and qualify squads for Punjab Village Cricket Council Season 35.
         </p>
       </div>
 
@@ -64,7 +64,7 @@
       <div class="card p-5 space-y-1 bg-emerald-50/30 border border-emerald-200/80">
         <div class="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Officially Enrolled</div>
         <div class="text-2xl sm:text-3xl font-black text-emerald-700">{{ enrolledCount }}</div>
-        <div class="text-[11px] text-emerald-800/80 font-medium">Qualified for Season 4</div>
+        <div class="text-[11px] text-emerald-800/80 font-medium">Qualified for Season 35</div>
       </div>
 
       <!-- Rejected / In Correction -->
@@ -407,7 +407,7 @@ const exportCsv = () => {
   const encodedUri = encodeURI(csvContent);
   const link = document.createElement('a');
   link.setAttribute('href', encodedUri);
-  link.setAttribute('download', `PVCC_Season4_Teams_${new Date().toISOString().slice(0, 10)}.csv`);
+  link.setAttribute('download', `PVCC_Season35_Teams_${new Date().toISOString().slice(0, 10)}.csv`);
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);

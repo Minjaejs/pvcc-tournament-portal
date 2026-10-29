@@ -455,7 +455,7 @@ const isCaptainLocked = computed(() => {
 const saving = ref(false);
 const errorMessage = ref('');
 
-const availableSeasons = ['Season 1 (2023)', 'Season 2 (2024)', 'Season 3 (2025)'];
+const availableSeasons = ['Season 32 (2023)', 'Season 33 (2024)', 'Season 34 (2025)'];
 
 const roles: { id: PlayerRole; label: string; icon: string }[] = [
   { id: 'batsman', label: 'Batsman', icon: '🏏' },

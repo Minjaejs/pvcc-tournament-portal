@@ -15,7 +15,7 @@
       
       <div class="text-center space-y-2">
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-bold mb-1">
-          <span>🏏</span> PVCC Season 4 Registration
+          <span>🏏</span> PVCC Season 35 Registration
         </div>
         <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
           Register Your Tournament Team
@@ -222,7 +222,7 @@
             Congratulations! Official Tournament Enrollment Approved
           </div>
           <p class="text-xs pl-5 text-emerald-800">
-            Your team is officially registered for Punjab Village Cricket Council Season 4 with registration code <strong>{{ team.registration_code }}</strong>. Fixtures and match dates will be published on the Enrolled Teams directory.
+            Your team is officially registered for Punjab Village Cricket Council Season 35 with registration code <strong>{{ team.registration_code }}</strong>. Fixtures and match dates will be published on the Enrolled Teams directory.
           </p>
         </div>
 

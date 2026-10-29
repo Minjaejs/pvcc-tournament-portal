@@ -1,4 +1,4 @@
--- PVCC Season 4: Database constraints for unique CNIC and single captain per squad
+-- PVCC Season 35: Database constraints for unique CNIC and single captain per squad
 
 -- 1. Deduplicate any test entries that may share the same CNIC (keeps the latest created entry)
 DELETE FROM public.players a USING public.players b

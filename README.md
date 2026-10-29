@@ -1,6 +1,6 @@
-# Punjab Village Cricket Council (PVCC) — Season 4 Portal 🏏
+# Punjab Village Cricket Council (PVCC) — Season 35 Portal 🏏
 
-Official online tournament registration, roster management, and committee verification portal for Punjab Village Cricket Council (PVCC) Championship Season 4.
+Official online tournament registration, roster management, and committee verification portal for Punjab Village Cricket Council (PVCC) Championship Season 35.
 
 ## 🌟 Key Features
 

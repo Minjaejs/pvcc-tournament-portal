@@ -1,9 +1,9 @@
 import type { Tournament } from '../types';
 
 export const DEFAULT_TOURNAMENT: Tournament = {
-  id: 'pvcc-season-4',
+  id: 'pvcc-season-35',
   name: 'Punjab Village Cricket Council (PVCC)',
-  season: 'Season 4 Championship 2026',
+  season: 'Season 35 Championship 2026',
   organizer: 'Punjab Village Cricket Council Management Committee',
   feeAmount: 10000,
   minPlayers: 11,

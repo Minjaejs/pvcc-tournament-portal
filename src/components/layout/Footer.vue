@@ -13,7 +13,7 @@
             />
             <div>
               <h3 class="font-extrabold text-slate-900 tracking-tight text-base">Punjab Village Cricket Council</h3>
-              <p class="text-xs text-slate-500 font-medium">Championship Season 4 — Official Portal</p>
+              <p class="text-xs text-slate-500 font-medium">Championship Season 35 — Official Portal</p>
             </div>
           </div>
           <p class="text-xs text-slate-600 leading-relaxed max-w-md">
