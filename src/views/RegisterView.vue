@@ -20,7 +20,7 @@
           <li>Team Name & Home District / Village</li>
           <li>11 to 15 Player details (Name, CNIC, DOB, Playing Role)</li>
           <li>Photo + CNIC Front & Back for each player</li>
-          <li>EasyPaisa / JazzCash / Bank payment transaction slip (Rs. 10,000)</li>
+          <li>EasyPaisa / JazzCash / Bank payment transaction slip (Rs. 1,000)</li>
         </ul>
       </div>
 

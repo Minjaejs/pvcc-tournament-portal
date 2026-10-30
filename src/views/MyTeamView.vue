@@ -101,7 +101,7 @@
             <ul class="list-disc list-inside space-y-1 pl-1">
               <li>Add between <strong>11 to 15 players</strong> into your roster with photos & CNIC front/back.</li>
               <li>Designate one player as your official <strong>Team Captain (C)</strong>.</li>
-              <li>Attach the <strong>Rs. 10,000 tournament fee</strong> payment receipt to submit for verification.</li>
+              <li>Attach the <strong>Rs. 1,000 tournament fee</strong> payment receipt to submit for verification.</li>
             </ul>
           </div>
 
@@ -211,7 +211,7 @@
             Registration Submitted & Locked for Verification
           </div>
           <p class="text-xs pl-5 text-blue-800">
-            The PVCC tournament management committee is currently reviewing your player CNIC documents and verifying payment of <strong>Rs. 10,000</strong>. Approvals are typically completed within 12–24 hours.
+            The PVCC tournament management committee is currently reviewing your player CNIC documents and verifying payment of <strong>Rs. 1,000</strong>. Approvals are typically completed within 12–24 hours.
           </p>
         </div>
 

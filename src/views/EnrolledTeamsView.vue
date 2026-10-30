@@ -10,7 +10,7 @@
         </div>
         <h1 class="text-3xl font-extrabold text-slate-900 tracking-tight">Enrolled Tournament Teams</h1>
         <p class="text-xs text-slate-500 mt-1">
-          Confirmed squads whose Rs. 10,000 fee and player identity documents have been verified and approved by the PVCC council.
+          Confirmed squads whose Rs. 1,000 fee and player identity documents have been verified and approved by the PVCC council.
         </p>
       </div>
 
@@ -94,7 +94,7 @@
         </div>
 
         <div class="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-400">
-          <span>Fee Verified: Rs. 10,000</span>
+          <span>Fee Verified: Rs. 1,000</span>
           <span class="text-emerald-700 font-semibold">Match Ready ✓</span>
         </div>
       </div>

@@ -5,7 +5,7 @@ export const DEFAULT_TOURNAMENT: Tournament = {
   name: 'Punjab Village Cricket Council (PVCC)',
   season: 'Season 35 Championship 2026',
   organizer: 'Punjab Village Cricket Council Management Committee',
-  feeAmount: 10000,
+  feeAmount: 1000,
   minPlayers: 11,
   maxPlayers: 15,
   registrationDeadline: 'Nov 15, 2026',

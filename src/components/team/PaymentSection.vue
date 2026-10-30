@@ -11,14 +11,14 @@
           Tournament Fee & Payment Verification
         </h3>
         <p class="text-xs text-slate-500">
-          Transfer the official tournament entry fee of <span class="font-bold text-slate-800">Rs. 10,000</span> and upload your payment transaction receipt.
+          Transfer the official tournament entry fee of <span class="font-bold text-slate-800">Rs. 1,000</span> and upload your payment transaction receipt.
         </p>
       </div>
 
       <!-- Fee Pill -->
       <div class="bg-gradient-to-br from-cricket-700 to-emerald-800 text-white px-5 py-3 rounded-2xl shadow-md text-right shrink-0">
         <div class="text-[11px] font-medium text-emerald-200 uppercase tracking-wider">Tournament Entry Fee</div>
-        <div class="text-2xl font-black tracking-tight">Rs. 10,000</div>
+        <div class="text-2xl font-black tracking-tight">Rs. 1,000</div>
       </div>
     </div>
 

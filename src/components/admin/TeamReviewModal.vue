@@ -108,7 +108,7 @@
 
                     <div>
                       <span class="text-slate-400 block text-[10px] uppercase font-bold">Entry Fee Amount</span>
-                      <span class="text-sm font-extrabold text-emerald-700">Rs. 10,000 (PKR)</span>
+                      <span class="text-sm font-extrabold text-emerald-700">Rs. 1,000 (PKR)</span>
                     </div>
 
                     <div class="col-span-2 bg-white p-3 rounded-xl border border-slate-200 flex items-center justify-between">
@@ -148,7 +148,7 @@
                   <textarea 
                     v-model="adminNotes" 
                     rows="3" 
-                    placeholder="e.g. Verified payment of Rs. 10,000 received in EasyPaisa account statement at 12:45 PM. CNIC records verified."
+                    placeholder="e.g. Verified payment of Rs. 1,000 received in EasyPaisa account statement at 12:45 PM. CNIC records verified."
                     class="input-field text-xs resize-none"
                   ></textarea>
                 </div>

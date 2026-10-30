@@ -77,8 +77,8 @@
       <!-- Verified Fees Collected -->
       <div class="card p-5 space-y-1 col-span-2 lg:col-span-1 bg-slate-900 text-white">
         <div class="text-[10px] uppercase font-bold text-emerald-400 tracking-wider">Verified Fee Pool</div>
-        <div class="text-xl sm:text-2xl font-black text-white">Rs. {{ (enrolledCount * 10000).toLocaleString() }}</div>
-        <div class="text-[10px] text-slate-400">Rs. 10k × {{ enrolledCount }} squads</div>
+        <div class="text-xl sm:text-2xl font-black text-white">Rs. {{ (enrolledCount * 1000).toLocaleString() }}</div>
+        <div class="text-[10px] text-slate-400">Rs. 1,000 × {{ enrolledCount }} squads</div>
       </div>
 
     </div>

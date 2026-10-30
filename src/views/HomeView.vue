@@ -48,7 +48,7 @@
               </div>
               <div class="p-3 bg-white rounded-xl border border-slate-200/60 shadow-xs">
                 <div class="text-xs text-slate-500 font-medium">Tournament Fee</div>
-                <div class="text-lg font-bold text-cricket-700 mt-0.5">Rs. 10,000</div>
+                <div class="text-lg font-bold text-cricket-700 mt-0.5">Rs. 1,000</div>
               </div>
               <div class="p-3 bg-white rounded-xl border border-slate-200/60 shadow-xs">
                 <div class="text-xs text-slate-500 font-medium">Payment Mode</div>
@@ -120,7 +120,7 @@
                       <div class="text-[10px] text-emerald-700 font-mono">TRX: EP-98721345</div>
                     </div>
                   </div>
-                  <span class="text-xs font-bold text-emerald-800">Rs. 10,000</span>
+                  <span class="text-xs font-bold text-emerald-800">Rs. 1,000</span>
                 </div>
               </div>
 
@@ -173,7 +173,7 @@
           </div>
           <h4 class="font-bold text-slate-900 text-base mb-2">Transfer Fee & Slip</h4>
           <p class="text-xs text-slate-600 leading-relaxed">
-            Send the Rs. 10,000 fee via EasyPaisa, JazzCash, or Bank, and upload the screenshot with transaction ID.
+            Send the Rs. 1,000 fee via EasyPaisa, JazzCash, or Bank, and upload the screenshot with transaction ID.
           </p>
         </div>
 
@@ -199,7 +199,7 @@
             Registration Fee Payment Methods
           </h3>
           <p class="text-sm text-slate-300 leading-relaxed">
-            Please transfer exactly <strong class="text-white">Rs. 10,000</strong> using any of the authorized accounts below. Keep your transaction ID and receipt screenshot ready to attach during registration.
+            Please transfer exactly <strong class="text-white">Rs. 1,000</strong> using any of the authorized accounts below. Keep your transaction ID and receipt screenshot ready to attach during registration.
           </p>
         </div>
 
