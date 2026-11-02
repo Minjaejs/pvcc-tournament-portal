@@ -218,9 +218,9 @@
             <div>
               <div class="text-xs text-slate-400 font-medium">Mobile Number</div>
               <div class="flex items-center justify-between mt-1">
-                <span class="font-mono text-lg font-extrabold text-amber-300 tracking-wider">0300-1234567</span>
+                <span class="font-mono text-lg font-extrabold text-amber-300 tracking-wider">0344-9191898</span>
                 <button 
-                  @click="copyToClipboard('03001234567', 'ep')" 
+                  @click="copyToClipboard('03449191898', 'ep')" 
                   class="px-2.5 py-1 text-xs rounded-lg bg-white/15 hover:bg-white/25 text-white transition-colors"
                 >
                   {{ copiedAccount === 'ep' ? 'Copied! ✓' : 'Copy' }}
@@ -242,9 +242,9 @@
             <div>
               <div class="text-xs text-slate-400 font-medium">Mobile Number</div>
               <div class="flex items-center justify-between mt-1">
-                <span class="font-mono text-lg font-extrabold text-amber-300 tracking-wider">0300-7654321</span>
+                <span class="font-mono text-lg font-extrabold text-amber-300 tracking-wider">0300-9191898</span>
                 <button 
-                  @click="copyToClipboard('03007654321', 'jc')" 
+                  @click="copyToClipboard('03009191898', 'jc')" 
                   class="px-2.5 py-1 text-xs rounded-lg bg-white/15 hover:bg-white/25 text-white transition-colors"
                 >
                   {{ copiedAccount === 'jc' ? 'Copied! ✓' : 'Copy' }}
@@ -256,19 +256,19 @@
           <!-- Bank Account Card -->
           <div class="bg-white/10 backdrop-blur-md rounded-2xl p-5 border border-white/10 space-y-3">
             <div class="flex items-center justify-between">
-              <span class="text-xs font-bold uppercase tracking-wider text-blue-400">Meezan Bank Ltd.</span>
-              <span class="text-[10px] px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 font-bold">IBAN</span>
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-400">Bank Alfalah</span>
+              <span class="text-[10px] px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 font-bold">Account</span>
             </div>
             <div>
               <div class="text-xs text-slate-400 font-medium">Account Title</div>
               <div class="font-bold text-white text-sm">Punjab Village Cricket Council</div>
             </div>
             <div>
-              <div class="text-xs text-slate-400 font-medium">IBAN Number</div>
+              <div class="text-xs text-slate-400 font-medium">Account Number</div>
               <div class="flex items-center justify-between mt-1">
-                <span class="font-mono text-xs font-bold text-amber-300 truncate max-w-[150px]">PK12MEZN0001020304050607</span>
+                <span class="font-mono text-xs font-bold text-amber-300 truncate max-w-[150px]">08891010979290</span>
                 <button 
-                  @click="copyToClipboard('PK12MEZN0001020304050607', 'bank')" 
+                  @click="copyToClipboard('08891010979290', 'bank')" 
                   class="px-2.5 py-1 text-xs rounded-lg bg-white/15 hover:bg-white/25 text-white transition-colors"
                 >
                   {{ copiedAccount === 'bank' ? 'Copied! ✓' : 'Copy' }}

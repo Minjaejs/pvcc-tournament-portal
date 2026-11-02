@@ -40,15 +40,15 @@
             <button 
               type="button" 
               class="text-[11px] font-bold text-cricket-700 hover:text-cricket-800 inline-flex items-center gap-1 transition-colors"
-              @click="copyText('0301-7654321', 'EasyPaisa Number')"
+              @click="copyText('03449191898', 'EasyPaisa Number')"
             >
               <span>{{ copiedField === 'EasyPaisa Number' ? '✓ Copied' : 'Copy' }}</span>
             </button>
           </div>
           <div>
             <div class="text-xs text-slate-500">Account Title</div>
-            <div class="text-sm font-bold text-slate-800">Muhammad Irfan</div>
-            <div class="font-mono text-xs font-semibold text-slate-700 mt-0.5">0301-7654321</div>
+            <div class="text-sm font-bold text-slate-800">Ali Nawaz (PVCC Treasurer)</div>
+            <div class="font-mono text-xs font-semibold text-slate-700 mt-0.5">0344-9191898</div>
           </div>
         </div>
 
@@ -61,37 +61,37 @@
             <button 
               type="button" 
               class="text-[11px] font-bold text-cricket-700 hover:text-cricket-800 inline-flex items-center gap-1 transition-colors"
-              @click="copyText('0300-9876543', 'JazzCash Number')"
+              @click="copyText('03009191898', 'JazzCash Number')"
             >
               <span>{{ copiedField === 'JazzCash Number' ? '✓ Copied' : 'Copy' }}</span>
             </button>
           </div>
           <div>
             <div class="text-xs text-slate-500">Account Title</div>
-            <div class="text-sm font-bold text-slate-800">Muhammad Irfan</div>
-            <div class="font-mono text-xs font-semibold text-slate-700 mt-0.5">0300-9876543</div>
+            <div class="text-sm font-bold text-slate-800">Ali Nawaz</div>
+            <div class="font-mono text-xs font-semibold text-slate-700 mt-0.5">0300-9191898</div>
           </div>
         </div>
 
-        <!-- Bank Al Habib -->
+        <!-- Bank Alfalah -->
         <div class="p-4 rounded-2xl border border-slate-200/90 bg-slate-50/60 hover:bg-white hover:border-blue-300 transition-all space-y-2">
           <div class="flex items-center justify-between">
             <span class="text-xs font-extrabold text-blue-700 bg-blue-50 px-2 py-0.5 rounded-md border border-blue-200">
-              Bank Al Habib
+              Bank Alfalah
             </span>
             <button 
               type="button" 
               class="text-[11px] font-bold text-cricket-700 hover:text-cricket-800 inline-flex items-center gap-1 transition-colors"
-              @click="copyText('PK36BAHL1029008101928301', 'Bank IBAN')"
+              @click="copyText('08891010979290', 'Bank Account')"
             >
-              <span>{{ copiedField === 'Bank IBAN' ? '✓ Copied' : 'Copy IBAN' }}</span>
+              <span>{{ copiedField === 'Bank Account' ? '✓ Copied' : 'Copy A/C' }}</span>
             </button>
           </div>
           <div>
             <div class="text-xs text-slate-500">Account Title</div>
             <div class="text-sm font-bold text-slate-800">Punjab Village Cricket Council</div>
-            <div class="font-mono text-[11px] font-semibold text-slate-700 mt-0.5 truncate" title="PK36BAHL1029008101928301">
-              IBAN: PK36BAHL...28301
+            <div class="font-mono text-xs font-semibold text-slate-700 mt-0.5 truncate" title="08891010979290">
+              A/C: 08891010979290
             </div>
           </div>
         </div>
@@ -131,7 +131,7 @@
             <select v-model="form.paymentMethod" class="input-field" :disabled="!canSubmit || submitting">
               <option value="EasyPaisa">EasyPaisa</option>
               <option value="JazzCash">JazzCash</option>
-              <option value="Bank Transfer">Bank Transfer (Bank Al Habib)</option>
+              <option value="Bank Transfer">Bank Transfer (Bank Alfalah)</option>
               <option value="Cash with Committee">Cash with Committee Member</option>
             </select>
           </div>
