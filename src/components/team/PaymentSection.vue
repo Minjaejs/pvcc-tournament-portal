@@ -24,9 +24,16 @@
 
     <!-- Official PVCC Accounts Grid -->
     <div class="space-y-3">
-      <div class="flex items-center justify-between">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
         <h4 class="text-xs font-bold uppercase tracking-wider text-slate-700">Official PVCC Payment Accounts</h4>
-        <span class="text-[11px] text-slate-500">Click to copy account details</span>
+        <a 
+          href="https://wa.me/923449191898" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="text-xs text-emerald-700 hover:text-emerald-800 font-bold inline-flex items-center gap-1.5 bg-emerald-50 px-2.5 py-1 rounded-lg border border-emerald-200 transition-colors self-start sm:self-auto"
+        >
+          <span>💬</span> Helpline / WhatsApp: 0344-9191898
+        </a>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5">
@@ -242,7 +249,10 @@
             {{ team.payment_method || 'EasyPaisa' }} • <span class="font-mono text-slate-600">Trx ID: {{ team.transaction_id || 'PVCC-TX-VERIFY' }}</span>
           </div>
           <div class="text-xs text-slate-500 mt-1">
-            Submitted on: {{ team.payment_submitted_at ? new Date(team.payment_submitted_at).toLocaleDateString() : 'Today' }}
+            Submitted on: {{ team.payment_submitted_at ? new Date(team.payment_submitted_at).toLocaleDateString() : 'Today' }} • 
+            <a href="https://wa.me/923449191898" target="_blank" rel="noopener noreferrer" class="text-emerald-700 font-bold hover:underline inline-flex items-center gap-1">
+              <span>💬</span> WhatsApp Helpline: 0344-9191898
+            </a>
           </div>
         </div>
 

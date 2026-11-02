@@ -311,9 +311,17 @@
         </div>
 
         <div class="mt-6 pt-4 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p class="text-xs text-slate-500">
-            Need assistance or have special eligibility inquiries? Contact the PVCC committee.
-          </p>
+          <div class="text-xs text-slate-600 flex flex-col sm:flex-row items-start sm:items-center gap-2">
+            <span>Need assistance or have questions?</span>
+            <a 
+              href="https://wa.me/923449191898" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="inline-flex items-center gap-1.5 font-bold text-emerald-700 hover:text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-lg border border-emerald-200 transition-colors"
+            >
+              <span>💬</span> Helpline / WhatsApp: 0344-9191898
+            </a>
+          </div>
           <router-link to="/register" class="btn-primary">
             Start Team Registration Now
           </router-link>

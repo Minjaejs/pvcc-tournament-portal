@@ -46,3 +46,10 @@ export const DEFAULT_TOURNAMENT: Tournament = {
     }
   ]
 };
+
+export const TOURNAMENT_HELPLINE = {
+  phone: '03449191898',
+  displayPhone: '0344-9191898',
+  intlPhone: '+92 344 9191898',
+  whatsappUrl: 'https://wa.me/923449191898',
+};

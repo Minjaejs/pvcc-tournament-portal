@@ -58,6 +58,18 @@
 
         <!-- Desktop Action Buttons -->
         <div class="hidden md:flex items-center gap-3">
+          <!-- WhatsApp Helpline Link -->
+          <a 
+            href="https://wa.me/923449191898" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 rounded-xl transition-all shadow-xs"
+            title="PVCC Helpline / WhatsApp"
+          >
+            <span class="text-sm">💬</span>
+            <span class="hidden lg:inline">Helpline:</span> 0344-9191898
+          </a>
+
           <template v-if="!isAuthenticated">
             <router-link to="/login" class="btn-secondary !py-2 text-xs">
               Captain / Admin Login
@@ -164,6 +176,16 @@
             Log Out
           </button>
         </template>
+
+        <!-- Mobile WhatsApp Helpline -->
+        <a 
+          href="https://wa.me/923449191898" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="flex items-center justify-center gap-2 w-full py-2.5 text-xs font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 rounded-xl transition-all"
+        >
+          <span>💬</span> Helpline / WhatsApp: 0344-9191898
+        </a>
       </div>
     </div>
   </header>

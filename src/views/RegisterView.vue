@@ -22,6 +22,12 @@
           <li>Photo + CNIC Front & Back for each player</li>
           <li>EasyPaisa / JazzCash / Bank payment transaction slip (Rs. 1,000)</li>
         </ul>
+        <div class="pt-1.5 border-t border-slate-200/80 flex items-center justify-between text-[11px] text-slate-500">
+          <span>Need help registering?</span>
+          <a href="https://wa.me/923449191898" target="_blank" rel="noopener noreferrer" class="font-bold text-emerald-700 hover:underline inline-flex items-center gap-1">
+            <span>💬</span> WhatsApp: 0344-9191898
+          </a>
+        </div>
       </div>
 
       <div class="pt-2">

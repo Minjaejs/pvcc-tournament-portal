@@ -54,9 +54,16 @@
           <p class="text-xs text-slate-600">
             For payment confirmation, fixture queries, or tournament support, contact the management desk:
           </p>
-          <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 text-xs space-y-1">
+          <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 text-xs space-y-1.5">
             <div class="font-semibold text-slate-800">Helpline / WhatsApp</div>
-            <div class="text-emerald-700 font-bold">+92 300 1234567</div>
+            <a 
+              href="https://wa.me/923449191898" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="text-emerald-700 font-extrabold hover:text-emerald-800 inline-flex items-center gap-1.5 text-sm transition-colors"
+            >
+              <span>💬</span> 0344-9191898
+            </a>
             <div class="text-[11px] text-slate-500">09:00 AM – 09:00 PM (PKT)</div>
           </div>
         </div>
