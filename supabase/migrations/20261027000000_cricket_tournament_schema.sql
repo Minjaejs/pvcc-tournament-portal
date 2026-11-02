@@ -39,7 +39,7 @@ create table if not exists public.tournaments (
   organizer text not null,
   fee_amount numeric(10, 2) not null default 1000.00,
   min_players integer not null default 11,
-  max_players integer not null default 15,
+  max_players integer not null default 20,
   registration_deadline timestamptz,
   is_registration_open boolean not null default true,
   payment_instructions jsonb not null default '[]'::jsonb,
@@ -360,14 +360,14 @@ begin
     raise exception 'Team has already been submitted (Current status: %)', v_team.status;
   end if;
 
-  -- Validate player counts (min 11, max 15)
+  -- Validate player counts (min 11, max 20)
   select count(*) into v_player_count from public.players where team_id = p_team_id;
   if v_player_count < 11 then
     raise exception 'Cannot submit: Team has only % players. Minimum required is 11.', v_player_count;
   end if;
 
-  if v_player_count > 15 then
-    raise exception 'Cannot submit: Team has % players. Maximum allowed is 15.', v_player_count;
+  if v_player_count > 20 then
+    raise exception 'Cannot submit: Team has % players. Maximum allowed is 20.', v_player_count;
   end if;
 
   -- Validate exactly 1 captain is designated
@@ -567,7 +567,7 @@ values (
   'Punjab Village Cricket Council Management Committee',
   1000.00,
   11,
-  15,
+  20,
   timezone('utc'::text, now() + interval '30 days'),
   true,
   '[
@@ -598,7 +598,7 @@ values (
     }
   ]'::jsonb,
   '[
-    "Minimum 11 and maximum 15 registered players per squad.",
+    "Minimum 11 and maximum 20 registered players per squad.",
     "Clear CNIC Front & Back and passport-style photo required for every player.",
     "Only 1 designated Captain per squad.",
     "Registration fee must be transferred via EasyPaisa, JazzCash, or Bank.",

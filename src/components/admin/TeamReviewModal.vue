@@ -222,7 +222,7 @@
             <div class="flex items-center justify-between">
               <div>
                 <h4 class="text-xs font-bold uppercase tracking-wider text-slate-700">
-                  Registered Players ({{ team.players?.length || 0 }} / 15)
+                  Registered Players ({{ team.players?.length || 0 }} / 20)
                 </h4>
                 <p class="text-xs text-slate-500">
                   Review each player's identity documents, age eligibility, and playing profile.

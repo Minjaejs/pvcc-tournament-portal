@@ -21,7 +21,7 @@
           Register Your Tournament Team
         </h1>
         <p class="text-sm text-slate-600 max-w-lg mx-auto">
-          Start by naming your team and district. You will then be able to add your 11 to 15 players one by one with their photos and CNIC cards.
+          Start by naming your team and district. You will then be able to add your 11 to 20 players one by one with their photos and CNIC cards.
         </p>
       </div>
 
@@ -99,7 +99,7 @@
               <span>📋</span> Next Steps After Team Creation:
             </div>
             <ul class="list-disc list-inside space-y-1 pl-1">
-              <li>Add between <strong>11 to 15 players</strong> into your roster with photos & CNIC front/back.</li>
+              <li>Add between <strong>11 to 20 players</strong> into your roster with photos & CNIC front/back.</li>
               <li>Designate one player as your official <strong>Team Captain (C)</strong>.</li>
               <li>Attach the <strong>Rs. 1,000 tournament fee</strong> payment receipt to submit for verification.</li>
             </ul>
@@ -171,7 +171,7 @@
             <div class="text-center">
               <div class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Squad Count</div>
               <div class="text-2xl font-black" :class="players.length >= 11 ? 'text-emerald-700' : 'text-amber-600'">
-                {{ players.length }} <span class="text-xs text-slate-400 font-semibold">/ 15 Max</span>
+                {{ players.length }} <span class="text-xs text-slate-400 font-semibold">/ 20 Max</span>
               </div>
             </div>
             <div class="h-8 w-px bg-slate-200"></div>
@@ -231,7 +231,7 @@
           <div class="flex items-center justify-between text-xs">
             <span class="font-bold text-slate-700">
               Squad Requirement Progress: 
-              <span class="text-cricket-700 font-extrabold">{{ players.length }} / 11 Minimum (15 Max)</span>
+              <span class="text-cricket-700 font-extrabold">{{ players.length }} / 11 Minimum (20 Max)</span>
             </span>
             <span v-if="players.length < 11" class="text-amber-700 font-semibold">
               Need {{ 11 - players.length }} more player{{ 11 - players.length > 1 ? 's' : '' }} to unlock submission
@@ -246,7 +246,7 @@
             <div 
               class="h-full rounded-full transition-all duration-500 ease-out"
               :class="players.length >= 11 ? 'bg-gradient-to-r from-emerald-500 to-cricket-600' : 'bg-gradient-to-r from-amber-400 to-amber-500'"
-              :style="{ width: `${Math.min((players.length / 15) * 100, 100)}%` }"
+              :style="{ width: `${Math.min((players.length / 20) * 100, 100)}%` }"
             ></div>
           </div>
         </div>
@@ -272,13 +272,13 @@
             type="button" 
             v-if="canEditRoster"
             class="btn-primary !text-xs !py-2.5 !px-5 inline-flex items-center gap-2 shadow-md hover:shadow-lg transition-all"
-            :disabled="players.length >= 15"
+            :disabled="players.length >= 20"
             @click="openAddPlayerModal"
           >
             <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
             </svg>
-            <span>{{ players.length >= 15 ? 'Squad Full (15 Max)' : '+ Add Player' }}</span>
+            <span>{{ players.length >= 20 ? 'Squad Full (20 Max)' : '+ Add Player' }}</span>
           </button>
         </div>
       </div>

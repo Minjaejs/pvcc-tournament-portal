@@ -5,7 +5,7 @@ Official online tournament registration, roster management, and committee verifi
 ## 🌟 Key Features
 
 ### For Team Captains
-- **Squad Builder:** Register team name, district, and manage 11 to 15 players with designated captain.
+- **Squad Builder:** Register team name, district, and manage 11 to 20 players with designated captain.
 - **Player Details:** Name, Father's Name, CNIC / B-Form (`33202-XXXXXXX-X`), Date of Birth, Playing Role, and Achievements.
 - **Client-Side Image Compressor:** Automatically compresses player photos and CNIC front/back documents down to ~150 KB directly in the browser before upload to avoid mobile timeouts.
 - **Fee Payment Submission:** Submit payment method (EasyPaisa, JazzCash, Bank Transfer) with transaction ID and payment slip upload.

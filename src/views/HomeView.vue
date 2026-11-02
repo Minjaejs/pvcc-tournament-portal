@@ -21,7 +21,7 @@
             </h1>
 
             <p class="text-base sm:text-lg text-slate-600 max-w-2xl leading-relaxed">
-              Official online registration portal for the upcoming PVCC cricket championship. Register your 11 to 15 players with verified CNICs, upload payment receipt, and track your team's official enrollment status in real time.
+              Official online registration portal for the upcoming PVCC cricket championship. Register your 11 to 20 players with verified CNICs, upload payment receipt, and track your team's official enrollment status in real time.
             </p>
 
             <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 pt-2">
@@ -44,7 +44,7 @@
             <div class="pt-6 grid grid-cols-2 sm:grid-cols-4 gap-4 border-t border-slate-200/80">
               <div class="p-3 bg-white rounded-xl border border-slate-200/60 shadow-xs">
                 <div class="text-xs text-slate-500 font-medium">Squad Size</div>
-                <div class="text-lg font-bold text-slate-900 mt-0.5">11 - 15 Players</div>
+                <div class="text-lg font-bold text-slate-900 mt-0.5">11 - 20 Players</div>
               </div>
               <div class="p-3 bg-white rounded-xl border border-slate-200/60 shadow-xs">
                 <div class="text-xs text-slate-500 font-medium">Tournament Fee</div>
@@ -92,7 +92,7 @@
                 <div class="p-3 rounded-xl bg-white border border-slate-200 text-xs space-y-2">
                   <div class="flex justify-between items-center text-[11px] font-bold text-slate-700">
                     <span>Verified Squad Roster</span>
-                    <span class="text-cricket-700">14 / 15 Players</span>
+                    <span class="text-cricket-700">14 / 20 Players</span>
                   </div>
                   <div class="w-full bg-slate-100 rounded-full h-2">
                     <div class="bg-cricket-600 h-2 rounded-full" style="width: 93%"></div>
@@ -161,7 +161,7 @@
           <div class="w-10 h-10 rounded-xl bg-cricket-100 text-cricket-700 font-extrabold flex items-center justify-center mb-4 text-base">
             02
           </div>
-          <h4 class="font-bold text-slate-900 text-base mb-2">Add Players (11 to 15)</h4>
+          <h4 class="font-bold text-slate-900 text-base mb-2">Add Players (11 to 20)</h4>
           <p class="text-xs text-slate-600 leading-relaxed">
             Add players one-by-one with photo, CNIC front/back, playing role, and mark your designated Captain.
           </p>
@@ -294,7 +294,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-slate-600">
           <div class="flex items-start gap-3 p-3 rounded-xl bg-slate-50 border border-slate-200/80">
             <span class="text-emerald-600 font-bold text-sm">1.</span>
-            <span><strong>Squad Size:</strong> Minimum 11 players and maximum 15 players allowed. No additions after final enrollment approval.</span>
+            <span><strong>Squad Size:</strong> Minimum 11 players and maximum 20 players allowed. No additions after final enrollment approval.</span>
           </div>
           <div class="flex items-start gap-3 p-3 rounded-xl bg-slate-50 border border-slate-200/80">
             <span class="text-emerald-600 font-bold text-sm">2.</span>
