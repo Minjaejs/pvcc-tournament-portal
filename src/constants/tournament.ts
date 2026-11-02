@@ -24,7 +24,7 @@ export const DEFAULT_TOURNAMENT: Tournament = {
       id: 'ep-1',
       method: 'easypaisa',
       provider: 'EasyPaisa',
-      accountTitle: 'Ali Nawaz (PVCC Treasurer)',
+      accountTitle: 'Akhtar Nawaz',
       accountNumber: '03449191898',
       note: 'Please mention your Team Name in the payment remarks.'
     },
@@ -32,7 +32,7 @@ export const DEFAULT_TOURNAMENT: Tournament = {
       id: 'jc-1',
       method: 'jazzcash',
       provider: 'JazzCash',
-      accountTitle: 'Ali Nawaz',
+      accountTitle: 'Akhtar Nawaz',
       accountNumber: '03009191898',
       note: 'Save screenshot of the successful transaction slip.'
     },
@@ -40,7 +40,7 @@ export const DEFAULT_TOURNAMENT: Tournament = {
       id: 'bank-1',
       method: 'bank',
       provider: 'Bank Alfalah',
-      accountTitle: 'Punjab Village Cricket Council',
+      accountTitle: 'Akhtar Nawaz',
       accountNumber: '08891010979290',
       note: 'Transfer supported from any Pakistani banking app.'
     }

@@ -47,7 +47,7 @@
           </div>
           <div>
             <div class="text-xs text-slate-500">Account Title</div>
-            <div class="text-sm font-bold text-slate-800">Ali Nawaz (PVCC Treasurer)</div>
+            <div class="text-sm font-bold text-slate-800">Akhtar Nawaz</div>
             <div class="font-mono text-xs font-semibold text-slate-700 mt-0.5">0344-9191898</div>
           </div>
         </div>
@@ -68,7 +68,7 @@
           </div>
           <div>
             <div class="text-xs text-slate-500">Account Title</div>
-            <div class="text-sm font-bold text-slate-800">Ali Nawaz</div>
+            <div class="text-sm font-bold text-slate-800">Akhtar Nawaz</div>
             <div class="font-mono text-xs font-semibold text-slate-700 mt-0.5">0300-9191898</div>
           </div>
         </div>
@@ -89,7 +89,7 @@
           </div>
           <div>
             <div class="text-xs text-slate-500">Account Title</div>
-            <div class="text-sm font-bold text-slate-800">Punjab Village Cricket Council</div>
+            <div class="text-sm font-bold text-slate-800">Akhtar Nawaz</div>
             <div class="font-mono text-xs font-semibold text-slate-700 mt-0.5 truncate" title="08891010979290">
               A/C: 08891010979290
             </div>

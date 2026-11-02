@@ -575,7 +575,7 @@ values (
       "id": "ep-1",
       "method": "easypaisa",
       "provider": "EasyPaisa",
-      "accountTitle": "Ali Nawaz (PVCC Treasurer)",
+      "accountTitle": "Akhtar Nawaz",
       "accountNumber": "03449191898",
       "note": "Please write team name in transfer remarks."
     },
@@ -583,7 +583,7 @@ values (
       "id": "jc-1",
       "method": "jazzcash",
       "provider": "JazzCash",
-      "accountTitle": "Ali Nawaz",
+      "accountTitle": "Akhtar Nawaz",
       "accountNumber": "03009191898",
       "note": "Save screenshot of the transfer receipt."
     },
@@ -591,7 +591,7 @@ values (
       "id": "bank-1",
       "method": "bank",
       "provider": "Bank Alfalah",
-      "accountTitle": "Punjab Village Cricket Council",
+      "accountTitle": "Akhtar Nawaz",
       "accountNumber": "08891010979290",
       "note": "Transfer supported from all Pakistani banking apps."
     }

@@ -213,7 +213,7 @@
             </div>
             <div>
               <div class="text-xs text-slate-400 font-medium">Account Title</div>
-              <div class="font-bold text-white text-sm">Ali Nawaz (PVCC Treasurer)</div>
+              <div class="font-bold text-white text-sm">Akhtar Nawaz</div>
             </div>
             <div>
               <div class="text-xs text-slate-400 font-medium">Mobile Number</div>
@@ -237,7 +237,7 @@
             </div>
             <div>
               <div class="text-xs text-slate-400 font-medium">Account Title</div>
-              <div class="font-bold text-white text-sm">Ali Nawaz</div>
+              <div class="font-bold text-white text-sm">Akhtar Nawaz</div>
             </div>
             <div>
               <div class="text-xs text-slate-400 font-medium">Mobile Number</div>
@@ -261,7 +261,7 @@
             </div>
             <div>
               <div class="text-xs text-slate-400 font-medium">Account Title</div>
-              <div class="font-bold text-white text-sm">Punjab Village Cricket Council</div>
+              <div class="font-bold text-white text-sm">Akhtar Nawaz</div>
             </div>
             <div>
               <div class="text-xs text-slate-400 font-medium">Account Number</div>
